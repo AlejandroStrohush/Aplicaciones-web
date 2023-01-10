@@ -1,0 +1,41 @@
+.button {
+  scale: 150%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.3020833333333vw;
+  color: #1fe8b6;
+  padding: 1.0416666666667vw 2.6041666666667vw;
+  border: 0.15625vw solid #1fe8b6;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button::before,
+.button::after {
+  content: "";
+  position: absolute;
+  width: 2.0833333333333vw;
+  height: 2.0833333333333vw;
+  border: inherit;
+  transition: all 0.5s ease-in;
+}
+
+.button::before {
+  top: -0.78125vw;
+  left: -0.78125vw;
+  border-width: 0.15625vw 0 0 0.15625vw;
+}
+
+.button::after {
+  bottom: -0.78125vw;
+  right: -0.78125vw;
+  border-width: 0 0.15625vw 0.15625vw 0;
+}
+
+.button:hover::before,
+.button:hover::after {
+  width: calc(100% + 1.40625vw);
+  height: calc(100% + 1.40625vw);
+}

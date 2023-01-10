@@ -1,0 +1,29 @@
+.a {
+  border-collapse: separate;
+}
+.b {
+  border-collapse: collapse;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(190deg, #2596be, #041014 0%, #219fcd 100%);
+}
+tr,
+td,
+th {
+  text-align: center;
+  border: 1px solid grey;
+  font-size: 1.7vw;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 100vw;
+}
+th {
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,42 @@
+body {
+  background: #ff8ddd;
+}
+
+.RojoYBlanco {
+  color: red;
+  background-color: white;
+}
+img {
+  width: 20%;
+  height: 20%;
+  border-style: solid;
+  border-color: red;
+  padding: 2px;
+  margin: 10px;
+  float: left;
+}
+
+.izquierda {
+  float: left;
+}
+
+.derecha {
+  float: right;
+}
+
+div.reset {
+  clear: both;
+}
+
+div.limpiar {
+  clear: both;
+}
+
+p {
+  text-align: justify;
+}
+.p1 {
+  float: left;
+  text-align: justify;
+  width: 30%;
+}

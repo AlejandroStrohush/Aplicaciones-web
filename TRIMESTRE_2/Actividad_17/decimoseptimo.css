@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.contenedor {
+  background: #aaa;
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: repeat(3, 100px);
+  margin: 0 auto;
+  width: 80%;
+}
+.contenedor > div {
+  background: bisque;
+  border: 1px solid black;
+}

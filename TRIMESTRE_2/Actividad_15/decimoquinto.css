@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0071b7;
+  font-family: "lato", sans-serif;
+  font-size: 1.6rem;
+}
+
+h1,
+h2 {
+  color: #fff;
+  text-align: center;
+  margin: 5rem 0;
+  padding: 1rem;
+}
+
+.caja-curso {
+  background-color: #ff4f1e;
+  text-align: center;
+  color: #fff;
+  padding: 5rem;
+}
+
+.caja-curso h1 {
+  margin: 0;
+}
+
+.caja-curso h1 {
+  margin: 0;
+}
+
+.contenedor {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+.box {
+  background-color: #ff4f1e;
+  color: #fff;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  border: 1rem solid #bb2b03;
+}
+
+.contenedor > div {
+  background-color: rgb(255, 0, 0);
+  padding: 5rem;
+}
+
+.d-flex {
+  display: flex;
+}

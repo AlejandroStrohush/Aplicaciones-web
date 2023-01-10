@@ -1,0 +1,16 @@
+div.noticia {
+  width: 50%;
+  margin: 1.0416vw auto;
+  background-color: #449;
+  color: #fff;
+  padding: 0.78125vw;
+}
+
+div.noticia img.izquierda {
+  float: left;
+  margin-right: 0.78125vw;
+}
+
+div.reset {
+  clear: both;
+}

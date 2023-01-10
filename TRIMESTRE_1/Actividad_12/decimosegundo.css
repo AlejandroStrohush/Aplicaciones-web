@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(190deg, #2596be, #041014 0%, #219fcd 100%);
+}
+
+.Muebles {
+  color: #0011ff;
+}
+
+img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 5vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.categoria a {
+  text-align: center;
+  background-color: #0011ff;
+  color: #fff;
+  border-bottom-right-radius: 1vw;
+}
+.categoria a:hover {
+  background-color: #037b00;
+  color: #fff;
+  border-bottom-right-radius: 1vw;
+}
+.limpiar {
+  clear: both;
+}

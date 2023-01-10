@@ -1,0 +1,173 @@
+/* Custom prperties */
+
+:root {
+  /* Colores */
+  --primario: #1073ba;
+  --secundario: #00da55;
+  --gris: #3b3b33;
+  --blanco: #ffffff;
+  --negro: #1f1e1e;
+  --grisClaro: #e1e1e1;
+
+  --separacion: 5rem;
+
+  /* Fuentes */
+  --fuentePrincipal: "Roboto", sans-serif;
+  --fuenteSecundaria: "Lato", sans-serif;
+}
+
+/* etiquetas */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  font-family: var(--fuenteSecundaria);
+  margin: calc(var(--separacion) / 2) 0;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* clases */
+
+.contenedor {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header {
+  background-color: var(--negro);
+  padding: calc(var(--separacion) * 3) 0;
+  color: var(--blanco);
+}
+
+.imagen-header {
+  width: 40%;
+}
+
+.texto-header {
+  text-align: center;
+  padding-top: var(--separacion);
+}
+
+.texto-header p {
+  margin: 0;
+}
+
+.tagline-producto {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.nombre-producto {
+  width: 60%;
+  font-size: 6rem;
+}
+
+.degradado-verde {
+  color: transparent;
+  background: linear-gradient(
+    to right,
+    var(--primario) 0%,
+    var(--secundario) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.precio-producto span {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.iconos {
+  padding: calc(var(--separacion) / 2);
+}
+
+.icono {
+  text-align: center;
+  margin-bottom: calc(var(--separacion) / 2) 0;
+}
+
+.icono img {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.icono h3 {
+  color: var(--primario);
+  text-transform: uppercase;
+  margin-top: calc(var(--separacion) / 2) 0;
+}
+
+.icono p {
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* Media Queries */
+/** Movil **/
+@media (max-width: 768px) {
+  .imagen-header {
+    margin: 0 auto;
+  }
+  .nombre-producto {
+    margin: 0 auto;
+  }
+}
+
+/** Desktop **/
+@media (min-width: 768px) {
+  .contenido-header {
+    display: flex;
+  }
+  .texto-header {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    padding-left: 0.5rem;
+  }
+  .iconos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+  }
+  .icono {
+    display: flex;
+    flex-direction: column;
+  }
+}

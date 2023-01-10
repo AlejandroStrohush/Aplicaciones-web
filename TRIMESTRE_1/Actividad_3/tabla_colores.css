@@ -1,0 +1,47 @@
+tr {
+  background-color: transparent;
+}
+th {
+  background-color: transparent;
+}
+
+.ser {
+  background-color: hsl(114, 100%, 50%, 0.3);
+}
+.aw {
+  background-color: hsl(0, 100%, 50%, 0.3);
+}
+.soer {
+  background-color: hsl(242, 100%, 50%, 0.3);
+}
+.si {
+  background-color: hsl(295, 100%, 50%, 0.3);
+}
+.eeie {
+  background-color: hsl(71, 100%, 50%, 0.3);
+}
+.it {
+  background-color: hsl(176, 100%, 50%, 0.3);
+}
+
+td:hover {
+  background-color: #0f7da4;
+}
+.ser:hover {
+  background-color: #1bff00;
+}
+.aw:hover {
+  background-color: #ff0000;
+}
+.soer:hover {
+  background-color: #0800ff;
+}
+.si:hover {
+  background-color: #ea00ff;
+}
+.eeie:hover {
+  background-color: #d1ff00;
+}
+.it:hover {
+  background-color: #00ffec;
+}

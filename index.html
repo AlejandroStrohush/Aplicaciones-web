@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Inicio</title>
+    <link rel="stylesheet" type="text/css" href="./css/letras_de_colores.css" />
+    <link rel="stylesheet" type="text/css" href="./css/particulas.css" />
+    <link rel="stylesheet" type="text/css" href="./css/fondo.css" />
+
+    
+
+    <style>
+      ul {
+        flex-direction: column;
+      }
+      ul:hover li a {
+        opacity: 0;
+      }
+      ul li a:hover {
+        transform: scale(1.4);
+        z-index: 1000;
+        opacity: 1;
+      }
+      ul li a {
+        position: relative;
+        display: inline-block;
+        padding: 0.41vw -10vw;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.2vw;
+        overflow: hidden;
+        transition: 0.5s;
+        z-index: 1;
+      }
+
+      #particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #252839;
+}
+
+    </style>
+  </head>
+  <body>
+
+    <div id="particles-js"> </div>
+  
+      <ul>
+        <li style="--clr: #fff">
+          <a href="/TRIMESTRE_1/TRIMESTRE_1.html" data-text="&nbsp;TRIMESTRE1"
+            >&nbsp;TRIMESTRE1&nbsp;</a
+          >
+        </li>
+        <li style="--clr: #fff">
+          <a href="/TRIMESTRE_2/TRIMESTRE_2.html" data-text="&nbsp;TRIMESTRE2"
+            >&nbsp;TRIMESTRE2&nbsp;</a
+          >
+        </li>
+
+
+      </ul>
+      
+   
+      <!-- particles.js container -->
+    </center>
+
+    <script src="https://cldup.com/S6Ptkwu_qA.js"></script>
+    
+    <script src="js/particulas.js"></script>
+    
+  </body>
+</html>

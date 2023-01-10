@@ -1,0 +1,6 @@
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(190deg, #2596be, #041014 0%, #145369 100%);
+}
